@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:hint="@string/n_mero_1"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/n_mero_2"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_sum"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="@string/sumar"
+        android:textColorLink="#C553BF81" />
+
+    <Button
+        android:id="@+id/button_resta"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="@string/restar" />
+
+    <Button
+        android:id="@+id/button_multiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/multiplicar" />
+
+    <Button
+        android:id="@+id/button_division"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="@string/dividir" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:text="@string/resultado"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="@string/by_jonny_java"
+        android:visibility="visible"
+        tools:visibility="visible" />
+</LinearLayout>
